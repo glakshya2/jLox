@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c24a4c43-0720-4be0-9838-f00bedc90644" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/glakshya2/lox/AstPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/glakshya2/tool/GenerateAst.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/glakshya2/lox/RPNPrinter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -113,7 +111,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1736852823032</updated>
-      <workItem from="1736852824149" duration="14895000" />
+      <workItem from="1736852824149" duration="16516000" />
     </task>
     <servers />
   </component>

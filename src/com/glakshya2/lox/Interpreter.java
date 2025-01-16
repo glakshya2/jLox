@@ -39,12 +39,15 @@ class Interpreter implements Expr.Visitor<Object> {
             case PLUS:
                 if (left instanceof Double && right instanceof Double) {
                     return (double) left + (double) right;
-                } else if (left instanceof String && right instanceof String) {
+                }
+                if (left instanceof String && right instanceof String) {
                     return (String) left + (String) right;
-                } else if (left instanceof String) {
-                    return (String) left + right.toString();
-                } else if (right instanceof String) {
-                    return (left.toString() + (String) right);
+                }
+                if (left instanceof String && right instanceof Double) {
+                    return (String) left + stringify(right);
+                }
+                if (right instanceof String && left instanceof Double) {
+                    return stringify(left) + (String) right;
                 }
                 throw new RunTimeError(expr.operator, "Operands must be either numbers or strings.");
             case STAR:

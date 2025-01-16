@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c24a4c43-0720-4be0-9838-f00bedc90644" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/glakshya2/lox/Interpreter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/glakshya2/lox/RunTimeError.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/glakshya2/lox/Lox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/glakshya2/lox/Lox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/glakshya2/lox/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/glakshya2/lox/Parser.java" afterDir="false" />
-    </list>
+    <list default="true" id="c24a4c43-0720-4be0-9838-f00bedc90644" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -117,7 +111,7 @@
       <updated>1736852823032</updated>
       <workItem from="1736852824149" duration="17446000" />
       <workItem from="1736925904986" duration="4652000" />
-      <workItem from="1737035321351" duration="6661000" />
+      <workItem from="1737035321351" duration="6972000" />
     </task>
     <servers />
   </component>

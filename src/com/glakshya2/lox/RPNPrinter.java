@@ -7,6 +7,11 @@ class RPNPrinter implements Expr.Visitor<String> {
     }
 
     @Override
+    public String visitAssignExpr(Expr.Assign expr) {
+        return arrange(expr.name.lexeme, expr.value);
+    }
+
+    @Override
     public String visitBinaryExpr(Expr.Binary expr) {
         return arrange(expr.operator.lexeme, expr.right, expr.left);
     }
@@ -25,6 +30,11 @@ class RPNPrinter implements Expr.Visitor<String> {
     @Override
     public String visitUnaryExpr(Expr.Unary expr) {
         return arrange(expr.operator.lexeme, expr.right);
+    }
+
+    @Override
+    public String visitVariableExpr(Expr.Variable expr) {
+        return expr.name.lexeme;
     }
 
     private String arrange(String name, Expr... exprs) {

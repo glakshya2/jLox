@@ -1,0 +1,5 @@
+1. Implement break and continue
+2. Implement comma operator
+3. Implement ternary operator
+4. Implement printing expression result on evaluation when using REPL
+5. Implement anonymous functions

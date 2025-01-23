@@ -5,17 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c24a4c43-0720-4be0-9838-f00bedc90644" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/TODO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/glakshya2/lox/LoxCallable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/glakshya2/lox/LoxFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/glakshya2/lox/Return.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/glakshya2/lox/Resolver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/glakshya2/lox/AstPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/glakshya2/lox/AstPrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO" beforeDir="false" afterPath="$PROJECT_DIR$/TODO" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/glakshya2/lox/Environment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/glakshya2/lox/Environment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/glakshya2/lox/Interpreter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/glakshya2/lox/Interpreter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/glakshya2/lox/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/glakshya2/lox/Parser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/glakshya2/lox/RPNPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/glakshya2/lox/RPNPrinter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/glakshya2/lox/Stmt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/glakshya2/lox/Stmt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/glakshya2/tool/GenerateAst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/glakshya2/tool/GenerateAst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/glakshya2/lox/Lox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/glakshya2/lox/Lox.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.lox" beforeDir="false" afterPath="$PROJECT_DIR$/test.lox" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -155,7 +150,10 @@
       <workItem from="1737067635291" duration="5229000" />
       <workItem from="1737120909438" duration="5287000" />
       <workItem from="1737136646355" duration="3434000" />
-      <workItem from="1737203481581" duration="2172000" />
+      <workItem from="1737203481581" duration="3111000" />
+      <workItem from="1737393769707" duration="1225000" />
+      <workItem from="1737564114095" duration="3237000" />
+      <workItem from="1737626529759" duration="2139000" />
     </task>
     <servers />
   </component>
@@ -176,11 +174,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/glakshya2/lox/Interpreter.java</url>
-          <line>269</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/glakshya2/lox/Parser.java</url>
           <line>36</line>

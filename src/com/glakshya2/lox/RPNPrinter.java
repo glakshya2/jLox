@@ -22,6 +22,11 @@ class RPNPrinter implements Expr.Visitor<String> {
     }
 
     @Override
+    public String visitGetExpr(Expr.Get expr) {
+        return arrange(expr.name.lexeme, expr.object);
+    }
+
+    @Override
     public String visitGroupingExpr(Expr.Grouping expr) {
         return arrange("", expr.expression);
     }
@@ -35,6 +40,11 @@ class RPNPrinter implements Expr.Visitor<String> {
     @Override
     public String visitLogicalExpr(Expr.Logical expr) {
         return arrange(expr.operator.lexeme, expr.right, expr.left);
+    }
+
+    @Override
+    public String visitSetExpr(Expr.Set expr) {
+        return arrange(expr.name.lexeme, expr.object, expr.value);
     }
 
     @Override

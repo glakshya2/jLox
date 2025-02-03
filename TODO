@@ -11,3 +11,5 @@
    Hint: Make LoxClass extend LoxInstance and go from there.
 9. Extend Lox to support getter methods. These are declared without a parameter list.
    The body of the getter is executed when a property with that name is accessed.
+10. Add feature: read user input from stdin
+11. Implement different kinds of inheritance

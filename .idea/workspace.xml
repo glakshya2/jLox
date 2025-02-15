@@ -6,15 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c24a4c43-0720-4be0-9838-f00bedc90644" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/glakshya2/lox/AstPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/glakshya2/lox/AstPrinter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/glakshya2/lox/Expr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/glakshya2/lox/Expr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/glakshya2/lox/Interpreter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/glakshya2/lox/Interpreter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/glakshya2/lox/LoxClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/glakshya2/lox/LoxClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/glakshya2/lox/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/glakshya2/lox/Parser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/glakshya2/lox/RPNPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/glakshya2/lox/RPNPrinter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/glakshya2/lox/Resolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/glakshya2/lox/Resolver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/glakshya2/lox/Stmt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/glakshya2/lox/Stmt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/glakshya2/tool/GenerateAst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/glakshya2/tool/GenerateAst.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.lox" beforeDir="false" afterPath="$PROJECT_DIR$/test.lox" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -161,7 +152,8 @@
       <workItem from="1738340466542" duration="1965000" />
       <workItem from="1738445655875" duration="7266000" />
       <workItem from="1738493320756" duration="600000" />
-      <workItem from="1738590511135" duration="3671000" />
+      <workItem from="1738590511135" duration="4171000" />
+      <workItem from="1738603711388" duration="585000" />
     </task>
     <servers />
   </component>
